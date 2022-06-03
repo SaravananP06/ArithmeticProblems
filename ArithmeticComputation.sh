@@ -27,4 +27,7 @@ echo "a*b+c=" $res2
 res3=$(($c+($a/$b)))
 echo "c+a/b=" $res3
 
+#UC5
 
+res4=$((($a%$b)+$c))
+echo "a%b+c=" $res4
