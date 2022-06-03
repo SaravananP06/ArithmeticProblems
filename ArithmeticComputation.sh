@@ -17,3 +17,7 @@ res1=$(($a+($b*$c)))
 
 echo "a+b*c = " $res1
 
+#UC3
+
+res2=$((($a*$b)+$c))
+echo "a*b+c=" $res2
