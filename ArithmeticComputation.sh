@@ -21,3 +21,10 @@ echo "a+b*c = " $res1
 
 res2=$((($a*$b)+$c))
 echo "a*b+c=" $res2
+
+#UC4
+
+res3=$(($c+($a/$b)))
+echo "c+a/b=" $res3
+
+
